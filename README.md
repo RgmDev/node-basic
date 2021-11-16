@@ -114,7 +114,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    npm install
    ```
-3. Create Mysql datatbase and a user with privileges
+3. Create Mysql database and user with privileges
    ```mysql
    create database dbname;
    create user 'dbuser'@'%' identified by 'password'
@@ -165,16 +165,16 @@ Include a Postman collection and environment to easily testing
 Endpoints List:
 
 - Users 
-* `GET /api/users`
-* `GET /api/users/:id`
-* `POST /api/users`
-* `PUT /api/users/:id`
-* `DELETE /api/users/:id`
+`GET /api/users`
+`GET /api/users/:id`
+`POST /api/users`
+`PUT /api/users/:id`
+`DELETE /api/users/:id`
 
 - App 
-* `POST /api/auth/login`
-* `POST /api/uploadFile/:type/:group`
-* `GET /api/uploadFile/:type/:group/:filename`
+`POST /api/auth/login`
+`POST /api/uploadFile/:type/:group`
+`GET /api/uploadFile/:type/:group/:filename`
 
 <p align="right"><a href="#top">:arrow_double_up:</a></p>
 
@@ -185,7 +185,7 @@ Endpoints List:
 
 - [x] Add Readme
 - [x] Add Licence
-- [x] Add Postman colection and environment
+- [x] Add Postman collection and environment
 - [ ] Others in the future
 
 
