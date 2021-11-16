@@ -14,23 +14,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/RgmDev/node-basic">
+    <img src="https://miro.medium.com/max/724/1*-igaI4IhZkeNWhESz1D9sw.png" alt="Logo" width="220">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Basic API nodejs</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An API template with users, login, jwt, upload & get files...
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/RgmDev/node-basic">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/RgmDev/node-basic/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/RgmDev/node-basic/issues">Request Feature</a>
   </p>
 </div>
 
@@ -67,37 +67,28 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Node and MySQL API include:
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+* ORM for manage de database
+* CRUD endpoints for user data
+* Identify with JWT
+* Upload and get data from the server
+* Log all the HTTP request
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right"><a href="#top">:arrow_double_up:</a></p>
 
 
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Frameworks/libraries used to bootstrap the project.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Express](https://nextjs.org/)
+* [Sequelize ORM](https://sequelize.org/)
+* [Morgan](https://github.com/expressjs/morgan#readme)
+* [Multer](https://github.com/expressjs/multer#readme)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right"><a href="#top">:arrow_double_up:</a></p>
 
 
 
@@ -109,31 +100,27 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Install [node](https://nodejs.org/es/)
 
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+3. Create Mysql datatbase for the project 
+4. Create a user with permision
+5. Configure .env file with database conection
+6. Migrations database with sequelize-cli
+7. Run the project
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right"><a href="#top">:arrow_double_up:</a></p>
 
 
 
@@ -144,24 +131,21 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right"><a href="#top">:arrow_double_up:</a></p>
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Add Readme
+- [x] Add Licence
+- [ ] Others in the future
+
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right"><a href="#top">:arrow_double_up:</a></p>
 
 
 
@@ -179,7 +163,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right"><a href="#top">:arrow_double_up:</a></p>
 
 
 
@@ -188,57 +172,43 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right"><a href="#top">:arrow_double_up:</a></p>
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Rubén González Martín - [Linkedin](https://www.linkedin.com/in/ruben-gonzalez-martin/) - rubengm410@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/RgmDev/node-basic](https://github.com/RgmDev/node-basic)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right"><a href="#top">:arrow_double_up:</a></p>
 
 
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
 [contributors-shield]: https://img.shields.io/github/contributors/RgmDev/node-basic
 [contributors-url]: https://github.com/RgmDev/node-basic/graphs/contributors
-
 [forks-shield]: https://img.shields.io/github/forks/RgmDev/node-basic
 [forks-url]: https://github.com/RgmDev/node-basic/network/members
-
 [stars-shield]: https://img.shields.io/github/stars/RgmDev/node-basic
 [stars-url]: https://github.com/RgmDev/node-basic/stargazers
-
 [issues-shield]: https://img.shields.io/github/issues/RgmDev/node-basic
 [issues-url]: https://github.com/RgmDev/node-basic/issues
-
 [license-shield]: https://img.shields.io/github/license/RgmDev/node-basic
 [license-url]: https://github.com/RgmDev/node-basic/blob/master/LICENSE.txt
-
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=0e76a8
 [linkedin-url]: https://www.linkedin.com/in/ruben-gonzalez-martin/
-[product-screenshot]: images/screenshot.png
