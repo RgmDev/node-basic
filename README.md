@@ -100,7 +100,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Install [node](https://nodejs.org/es/)
+Install [node](https://nodejs.org/es/) and [mysql](https://dev.mysql.com/downloads/mysql/)
 
 ### Installation
 
@@ -108,17 +108,44 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone git@github.com:RgmDev/node-basic.git
    ```
 2. Install NPM packages
    ```sh
    npm install
    ```
-3. Create Mysql datatbase for the project 
-4. Create a user with permision
-5. Configure .env file with database conection
-6. Migrations database with sequelize-cli
-7. Run the project
+3. Create Mysql datatbase and a user with privileges
+   ```mysql
+   create database dbname;
+   create user 'dbuser'@'%' identified by 'password'
+   grant all privileges on namedb.* to 'dbuser'@'%';
+   flush privileges;
+   ```
+
+4. Copy .env.example to .env and configure environment and database conection
+   ```sh
+   # APP
+   DOMAIN=http://localhost:3000
+
+   # DATABASE
+   DB_HOST=localhost
+   DB_USER=dbuser
+   DB_PASS=password
+   DB_NAME=dbname
+
+   # JWT
+   JWT_KEY=secretkey
+   ```
+
+5. Execute migration and sedder with sequelize-cli
+   ```sh
+   npx sequelize db:migrate
+   npx sequelize db:seed:all
+   ```
+6. Run the project
+   ```sh
+   npm start
+   ```
 
 <p align="right"><a href="#top">:arrow_double_up:</a></p>
 
@@ -130,6 +157,8 @@ _Below is an example of how you can instruct your audience on installing and set
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
+
+The user included in seeder: email `admin@mail.com` and password `Password123`
 
 <p align="right"><a href="#top">:arrow_double_up:</a></p>
 
