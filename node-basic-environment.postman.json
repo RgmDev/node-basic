@@ -1,0 +1,19 @@
+{
+	"id": "063ef402-bbf3-44ba-b417-d583284b8667",
+	"name": "node-basic-environment",
+	"values": [
+		{
+			"key": "domain",
+			"value": "http://localhost:3000",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2021-11-16T16:51:28.427Z",
+	"_postman_exported_using": "Postman/9.1.3"
+}

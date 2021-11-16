@@ -160,6 +160,22 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 The user included in seeder: email `admin@mail.com` and password `Password123`
 
+Include a Postman collection and environment to easily testing
+
+Endpoints List:
+
+- Users 
+* `GET /api/users`
+* `GET /api/users/:id`
+* `POST /api/users`
+* `PUT /api/users/:id`
+* `DELETE /api/users/:id`
+
+- App 
+* `POST /api/auth/login`
+* `POST /api/uploadFile/:type/:group`
+* `GET /api/uploadFile/:type/:group/:filename`
+
 <p align="right"><a href="#top">:arrow_double_up:</a></p>
 
 
@@ -169,6 +185,7 @@ The user included in seeder: email `admin@mail.com` and password `Password123`
 
 - [x] Add Readme
 - [x] Add Licence
+- [x] Add Postman colection and environment
 - [ ] Others in the future
 
 
@@ -220,6 +237,7 @@ Project Link: [https://github.com/RgmDev/node-basic](https://github.com/RgmDev/n
 ## Acknowledgments
 
 * [Choose an Open Source License](https://choosealicense.com)
+* [Postman API development](https://www.postman.com/)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
