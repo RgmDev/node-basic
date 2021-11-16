@@ -165,15 +165,24 @@ Include a Postman collection and environment to easily testing
 Endpoints List:
 
 - Users 
+
 `GET /api/users`
+
 `GET /api/users/:id`
+
 `POST /api/users`
+
 `PUT /api/users/:id`
+
 `DELETE /api/users/:id`
 
+
 - App 
+
 `POST /api/auth/login`
+
 `POST /api/uploadFile/:type/:group`
+
 `GET /api/uploadFile/:type/:group/:filename`
 
 <p align="right"><a href="#top">:arrow_double_up:</a></p>
