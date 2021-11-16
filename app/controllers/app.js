@@ -37,14 +37,18 @@ function login(req, res){
 
 function uploadFile(req, res){
   let type = req.params.type;
-  let group = req.params.group;
-  let directory = path.join(__dirname, '../assets', type, group);
-  if(!fs.existsSync(directory)) {
-    fs.mkdirSync(directory);
+  let group = req.params.group; 
+  let directory_type = path.join('app/assets', type); 
+  if(!fs.existsSync(directory_type)) {
+    fs.mkdirSync(directory_type);
+  }
+  let directory_group = path.join('app/assets', type, group); 
+  if(!fs.existsSync(directory_group)) {
+    fs.mkdirSync(directory_group);
   }
   var storage = multer.diskStorage({
     destination: function (req, file, cb) {
-      cb(null, directory);
+      cb(null, directory_group);
     },
     filename: function (req, file, cb) {
       cb(null, moment().unix()+'_'+Math.floor(Math.random() * 10000)+path.extname(file.originalname));
