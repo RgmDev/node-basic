@@ -11,6 +11,7 @@ const port = 3000;
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+if(!fs.existsSync(path.join(__dirname, 'app/logs'))) { fs.mkdirSync(path.join(__dirname, 'app/logs')); }
 app.use(morgan('[:date[iso]] :method ":url" :status :remote-addr :remote-user', {
   stream: fs.createWriteStream(path.join(__dirname, 'app/logs/access_'+moment().format('YYYYMMDD')+'.log'), { flags: 'a' })
 }));
