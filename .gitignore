@@ -1,0 +1,12 @@
+# /logs/*
+# !/logs/README.md
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
