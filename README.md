@@ -21,7 +21,7 @@
   <h3 align="center">Basic API nodejs</h3>
 
   <p align="center">
-    An API template with users, login, jwt, upload & get files...
+    An API template with users, login, JWT, upload & get files...
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
