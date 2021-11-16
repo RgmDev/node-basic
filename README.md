@@ -179,7 +179,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Rubén González Martín - [Linkedin](https://www.linkedin.com/in/ruben-gonzalez-martin/) - rubengm410@gmail.com
+Rubén González Martín [:mailbox:](rubengm410@gmail.com)
 
 Project Link: [https://github.com/RgmDev/node-basic](https://github.com/RgmDev/node-basic)
 
@@ -195,7 +195,7 @@ Project Link: [https://github.com/RgmDev/node-basic](https://github.com/RgmDev/n
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right"><a href="#top">:arrow_double_up:</a></p>
 
 
 
