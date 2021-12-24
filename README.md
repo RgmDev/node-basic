@@ -15,7 +15,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/RgmDev/ionic-angular-redux">
-    <img src="https://w7.pngwing.com/pngs/490/652/png-transparent-ionic-mobile-app-development-apache-cordova-software-framework-framework-miscellaneous-blue-text.png" alt="Logo" width="220">
+    <img src="https://tech.tribalyte.eu/wp-content/uploads/2018/05/ionic.png" alt="Logo" width="220">
   </a>
 
   <h3 align="center">Ionic/Angular with redux example</h3>
