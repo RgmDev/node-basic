@@ -14,14 +14,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/RgmDev/node-basic">
-    <img src="https://miro.medium.com/max/724/1*-igaI4IhZkeNWhESz1D9sw.png" alt="Logo" width="220">
+  <a href="https://github.com/RgmDev/ionic-angular-redux">
+    <img src="https://w7.pngwing.com/pngs/490/652/png-transparent-ionic-mobile-app-development-apache-cordova-software-framework-framework-miscellaneous-blue-text.png" alt="Logo" width="220">
   </a>
 
-  <h3 align="center">Basic API nodejs</h3>
+  <h3 align="center">Ionic/Angular with redux example</h3>
 
   <p align="center">
-    An API template with users, login, JWT, upload & get files...
+    An ionic tabs project based on angular that implements redux
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
